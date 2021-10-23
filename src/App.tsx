@@ -1,4 +1,5 @@
 import React from 'react';
+import AlbumList from './components/AlbumList';
 import TodoList from './components/TodoList';
 import UserList from './components/UserList';
 
@@ -10,6 +11,8 @@ const  App = ()=> {
       <UserList/>
       <hr />
       <TodoList/>
+      <hr/>
+      <AlbumList/>
     </div>
   );
 }
